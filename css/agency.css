@@ -3,11 +3,14 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+ <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
+  font-style: bold;
   color: #777777;
 }
 .text-primary {
@@ -321,14 +324,16 @@ header .intro-text {
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Permanent Marker', cursive;
   font-style: italic;
   font-size: 22px;
   line-height: 22px;
   margin-bottom: 25px;
 }
+
 header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  font-family: 'Permanent Marker', cursive;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 50px;
@@ -348,7 +353,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Permanent Marker', cursive;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 75px;
@@ -897,8 +902,4 @@ body {
   color:#444;
   color:rgba(0, 0, 0, 0.4);
 }
-jQuery('.skillbar').each(function(){
-  jQuery(this).find('.skillbar-bar').animate({
-    width:jQuery(this).attr('data-percent')
-  },2000);
-});
+
